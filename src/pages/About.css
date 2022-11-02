@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Alfa Slab One');
+
+.navbar{
+    display: grid;
+    /* grid-template-columns: 1fr 2fr; */
+}
+.name-title{
+    margin:20px 100px;
+    font-size:25px;
+    letter-spacing:2px;
+}
+.name-title::first-letter{
+    color:#00FF29;
+}
+.navlink li{
+    padding:35px;
+    color : white;
+    list-style-type: none;
+   font-size:25px;
+   font-weight: 500;
+   font-family:'Oswald';
+   letter-spacing: 2px;
+}
+.navlink {
+    display:flex;
+    justify-content: right;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.intro-area{
+    display:flexbox;
+    margin-top: 70px;
+    height: 500px;
+}
+
+.intro{
+    /* margin-left:100px; */
+    /* font-weight: ; */
+    grid-template-columns: 0.1fr 4fr;
+}
+.intro-area{
+    display: flex;
+}
+
+.profilepic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 0 0 white;
+    border-radius: 50%;
+    height: 370px;
+    width: 800px;
+    margin:0 150px 0 150px;
+}
+.profile-pic-bg{
+    height:92%;
+    width:92%;
+    background-image: url('C:\Web dev\React\Portfolio\portfolio\src\images\profile photo.jpg');
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+}

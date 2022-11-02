@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -23,14 +23,15 @@ body{
     font-size: 50px;
 }
 
+body{
+    background: #010c2a;    
 
+}
 .background{
-    background: #0f133e;  
+    /* background: #6a6a6a; */
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
-    
-   
 }
 
 .Objects{
@@ -142,5 +143,82 @@ body{
         opacity: 0;
         border-radius: 50%;
     }
-
 }
+
+/* Responsive */
+@media(max-width: 450px){
+    .Objects li:nth-child(1){
+        left: 25%;
+        width: 30px;
+        height: 30px;
+        animation-delay: 0s;
+    }
+    
+    .Objects li:nth-child(2){
+        left: 10%;
+        width: 60px;
+        height: 60px;
+        animation-delay: 2s;
+        animation-duration: 12s;
+    }
+    
+    .Objects li:nth-child(3){
+        left: 70%;
+        width: 110px;
+        height: 110px;
+        animation-delay: 4s;
+    }
+    
+    .Objects li:nth-child(4){
+        left: 40%;
+        width: 90px;
+        height: 90px;
+        animation-delay: 0s;
+        animation-duration: 18s;
+    }
+    
+    .Objects li:nth-child(5){
+        left: 65%;
+        width: 60px;
+        height: 60px;
+        animation-delay: 0s;
+    }
+    
+    .Objects li:nth-child(6){
+        left: 75%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 3s;
+    }
+    
+    .Objects li:nth-child(7){
+        left: 35%;
+        width: 70px;
+        height: 70px;
+        animation-delay: 7s;
+    }
+    
+    .Objects li:nth-child(8){
+        left: 50%;
+        width: 25px;
+        height: 25px;
+        animation-delay: 15s;
+        animation-duration: 45s;
+    }
+    
+    .Objects li:nth-child(9){
+        left: 20%;
+        width: 90px;
+        height: 90px;
+        animation-delay: 2s;
+        animation-duration: 35s;
+    }
+    
+    .Objects li:nth-child(10){
+        left: 85%;
+        width: 100px;
+        height: 100px;
+        animation-delay: 0s;
+        animation-duration: 11s;
+    }
+  }
