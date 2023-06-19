@@ -58,7 +58,7 @@ const GlassCard = () => {
             <StyledImg src={profile} />
             <StyledH1>E-Commerce</StyledH1>
             <br/>
-            <StyledH3>Data Scientist, Designer <br/> and Full Stack Developer</StyledH3>
+            {/* <StyledH3>Data Scientist, Designer <br/> and Full Stack Developer</StyledH3> */}
             
         </Container>
     );

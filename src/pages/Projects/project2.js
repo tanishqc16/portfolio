@@ -60,7 +60,7 @@ const GlassCard = () => {
             <img src={github} onClick={()=> window.open("https://github.com/tanishqc16", "_blank")} alt=""  style={{height:'50px', paddingTop:'10%', paddingBottom:'20%'}}/>
             <StyledH1>SIP Official Portal</StyledH1>
             <br/>
-            <StyledH3>Data Scientist, Designer <br/> and Full Stack Developer</StyledH3>
+            {/* <StyledH3>Data Scientist, Designer <br/> and Full Stack Developer</StyledH3> */}
             
         </Container>
     );
