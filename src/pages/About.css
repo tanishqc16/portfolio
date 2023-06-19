@@ -13,14 +13,18 @@
 .name-title::first-letter{
     color:#00FF29;
 }
-.navlink li{
-    padding:35px;
+
+.navlink a{
+    padding-right:35px;
+    padding-top: 2%;
     color : white;
     list-style-type: none;
    font-size:25px;
    font-weight: 500;
    font-family:'Oswald';
-   letter-spacing: 2px;
+   letter-spacing: 3px;
+   text-decoration: none;
+   cursor:pointer;
 }
 .navlink {
     display:flex;
@@ -31,7 +35,7 @@
 
 .intro-area{
     display:flexbox;
-    margin-top: 70px;
+    margin-top: 7%;
     height: 500px;
 }
 
@@ -54,12 +58,66 @@
     width: 800px;
     margin:0 150px 0 150px;
 }
+
 .profile-pic-bg{
     height:92%;
-    width:92%;
+    width:90%;
     background-image: url('C:\Web dev\React\Portfolio\portfolio\src\images\profile photo.jpg');
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
     background-size:auto;
-}
+}   
+
+.about-txt {
+    height: 60%;
+    width: 100%;
+    padding: 5%;
+    font-size: 20px;
+    background-color: #010c2a;
+    border-radius: 15px;
+    border-color: #ffffff;
+    border-style: solid;
+    /* background: linear-gradient(to top left,rgba(255, 255, 255, 0.731),rgba(255, 255, 255, 0.356)); */
+  }
+  .about-txt p{
+    color:#ffffff;
+  }
+  
+  .about-achievements{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 10px;
+    /* margin-right:20px ; */
+  }
+  .about-area{
+    flex: 1;
+    /* border: 1px solid #666; */
+    margin:2px;
+    padding: 10px;
+    transition: 0.3s;
+  }
+  .profile-link {
+    list-style-type:none;
+    /* border: 1px solid #666; */
+    margin-left:50%;
+    padding: 10px;
+    text-align: right;
+  }
+  .profile-link img{
+    /* padding-bottom: 30%; */
+    width: 60%;
+    padding-right: 25%;
+    position:static;
+    border-radius: 10%;
+
+      box-shadow: 5px 5px 5px #ccc;
+      -moz-box-shadow: 5px 5px 5px #ccc;
+      -webkit-box-shadow: 5px 5px 5px #ccc;
+      -khtml-box-shadow: 5px 5px 5px #ccc;
+  }
+
+  .profile-link img:hover{
+    padding-right: 30%;
+  }

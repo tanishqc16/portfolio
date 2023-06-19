@@ -1,0 +1,9 @@
+.allcards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.projectcards{
+    /* padding-right: 30px; */
+}
